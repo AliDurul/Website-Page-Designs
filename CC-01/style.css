@@ -83,10 +83,13 @@ section .paths {
 
 /* Hover effects */
 
-section .paths:hover{
+section .paths:hover {
   width: 85%;
 }
-img:hover {
-  width: 355px;
+section .paths:hover .path-pic {
+  border: 3px solid #f4a460;
+}
+section .paths:hover .path-content .path-btn{
+  background-color: #f84200;
 }
 
