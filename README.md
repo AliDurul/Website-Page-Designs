@@ -4,4 +4,4 @@
 
 - Netflix Survey Form : https://alidurul.github.io/Clarusway-Challenges/Netflix-Survey-Form/
 
-- Parallax-Website : 
+- Parallax-Website : https://alidurul.github.io/Clarusway-Challenges/002-Parallax-Website/
