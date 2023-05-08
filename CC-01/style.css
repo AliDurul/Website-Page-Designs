@@ -80,3 +80,13 @@ section .paths {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
 }
+
+/* Hover effects */
+
+section .paths:hover{
+  width: 85%;
+}
+img:hover {
+  width: 355px;
+}
+
