@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 /* Common CSS */
-
+body{
+    opacity: 0.8;
+}
 section{
     min-height: 100vh;
     background-position: center;
@@ -22,10 +24,10 @@ section{
     outline-offset: 20px;
     padding: 35px;
     border-radius: 30px 0 30px 0;
-    background-color: #2e2e2e;
+    background-color: #000000;
     color: #fff;
     font-size: 3rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }
 .top-content{
     padding: 80px 45px;
@@ -40,7 +42,8 @@ section{
     padding-bottom: 20px;
 }
 /* Other CSS */
-.sec2 .top-content{
+.sec2 .top-content,
+.sec4 .top-content{
     background-color: #fff;
 
 }
@@ -55,7 +58,8 @@ section{
 .mid-picture img{
     width: 30%;
 }
-.sec3 .top-content{
+.sec3 .top-content,
+.sec5 .top-content{
     background-color: #1c1c20;
     color: #fff;
 }
@@ -76,4 +80,11 @@ section{
 }
 .sec3{
     background-image:url(./img/bg3.jpg) ;
+}
+.sec4{
+    background-image: url(./img/bg4.jpg);
+}
+.sec5{
+    background-image: url(./img/bg1.jpg);
+
 }
