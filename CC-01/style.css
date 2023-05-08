@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Rubik+Vinyl&display=swap");
+
+/* General Css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 83, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+img {
+  width: 309px;
+  height: 225px;
+}
+main {
+  margin-bottom: 10px;
+}
+
+/* Header Css */
+header h1 {
+  font-family: "Rubik Vinyl", cursive;
+  font-weight: 700;
+  font-size: 5.3rem;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+/* Main Css */
+section {
+  display: flex;
+  justify-content: center;
+}
+
+section .paths {
+  width: 80%;
+  display: flex;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.paths .path-content {
+  padding-left: 10px;
+}
+
+.paths .path-content h2 {
+  font-family: "EB Garamond", serif;
+  color: #f4a460;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.paths .path-content p {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  text-indent: 10px;
+}
+.paths .path-content .path-btn {
+  float: right;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ff7f50;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
