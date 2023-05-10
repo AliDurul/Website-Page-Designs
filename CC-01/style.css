@@ -6,7 +6,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background: linear-gradient(
     90deg,
@@ -26,7 +25,6 @@ img {
 main {
   margin-bottom: 10px;
 }
-
 /* Header Css */
 header h1 {
   font-family: "Rubik Vinyl", cursive;
@@ -36,13 +34,11 @@ header h1 {
   color: white;
   margin-top: 10px;
 }
-
 /* Main Css */
 section {
   display: flex;
   justify-content: center;
 }
-
 section .paths {
   width: 80%;
   display: flex;
@@ -54,11 +50,9 @@ section .paths {
     rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
     rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-
 .paths .path-content {
   padding-left: 10px;
 }
-
 .paths .path-content h2 {
   font-family: "EB Garamond", serif;
   color: #f4a460;
@@ -82,7 +76,6 @@ section .paths {
 }
 
 /* Hover effects */
-
 section .paths:hover {
   width: 85%;
 }
