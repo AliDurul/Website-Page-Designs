@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 0 1rem;
+
+}
+.header-flex{
+    display: flex;
+    align-content: center;
+}
+.header-flex div{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
