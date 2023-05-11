@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
 }
 main{
     height: 100vh;
@@ -28,7 +30,7 @@ header{
 
 .header-flex .header-link a{
     font-size: 1rem;
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0,0.7);
 }
 .header-flex .header-btn a{
     color: #FFF;
