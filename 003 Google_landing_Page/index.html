@@ -47,7 +47,7 @@
             />
           </div>
           <div class="input-box">
-            <input type="text" class="search-input" />
+            <input type="search" class="search-input" id="form-search"/>
           </div>
           <div class="mic-box">
             <img src="./images/google_microphone.png" alt="" />
@@ -55,7 +55,7 @@
         </div>
         <div class="section-btn-box">
           <div class="section-btn">
-            <p>Google Search</p>
+            <p id="searchBtn">Google Search</p>
           </div>
           <div class="section-btn">
             <p>I'm Feeling Lucky</p>
@@ -96,5 +96,16 @@
             </div>
         </footer>
     </main>
+    <script>
+      let query = document.querySelector("#form-search");
+      let searchBtn = document.querySelector("#searchBtn");
+
+      searchBtn.onclick = function (e) {
+        e.preventDefault();
+        let url = "https://www.google.com/search?q=" + query.value;
+        window.open(url, "_self");
+        query.value = "";
+      };
+    </script>
   </body>
 </html>

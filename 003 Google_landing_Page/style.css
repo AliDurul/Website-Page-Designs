@@ -75,6 +75,10 @@ section .search-box{
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+section .search-box:hover{
+    box-shadow: rgb(211, 211, 211) 3px 3px 5px 0px
+}
 section .search-box .input-box input{
     border: none;
     outline: none;
@@ -98,13 +102,22 @@ section .section-btn-box{
     justify-content: space-between;
     min-width:260px;
 }
-section .section-btn-box .section-btn{
-    padding: 0.5rem;
-    background-color: #F3F3F3;
+
+section .section-btn-box .section-btn,
+.section-btn button{
+    height: 36px;
+  padding: 6px;
+  border-radius: 4px;
+  background-color: rgb(240, 240, 240);
+  opacity: 0.8;
+  cursor: pointer;
+  border: none;
 }
-section .section-btn-box .section-btn:hover{
-    cursor: pointer;
-}
+section .section-btn:hover{
+    opacity: 1;
+    border: 1px solid rgb(211, 211, 211);
+    box-shadow: rgb(211, 211, 211) 0.7px 0.7px 0.7px 0px;
+  }
 .section-text-box span{
     color: blue;
     text-decoration: underline;
