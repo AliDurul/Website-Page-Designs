@@ -90,6 +90,9 @@ section .section-btn-box .section-btn{
     padding: 0.5rem;
     background-color: #F3F3F3;
 }
+section .section-btn-box .section-btn:hover{
+    cursor: pointer;
+}
 .section-text-box span{
     color: blue;
     text-decoration: underline;
