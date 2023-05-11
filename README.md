@@ -6,4 +6,4 @@
 
 - Parallax-Website : https://alidurul.github.io/Clarusway-Challenges/002-Parallax-Website/
 
-- : https://alidurul.github.io/Clarusway-Challenges/003%20Google_landing_Page/
+- Google landing Page : https://alidurul.github.io/Clarusway-Challenges/003%20Google_landing_Page/
