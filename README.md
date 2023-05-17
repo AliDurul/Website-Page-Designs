@@ -2,7 +2,7 @@
 
 - [CC-01](https://alidurul.github.io/Website-Page-Designs/CC-01/)
 
-- [Netflix Survey Form](https://alidurul.github.io/Website-Page-Designs/Netflix-Survey-Form/)
+- [Netflix Survey Form](https://alidurul.github.io/Website-Page-Designs/001%20Netflix-Survey-Form/)
 
 - [Parallax-Website](https://alidurul.github.io/Website-Page-Designs/002-Parallax-Website/)
 
