@@ -64,7 +64,8 @@ h1 {
 }
 
 .home {
-  height: 220px;
+  height: 350px;
+  /* height: 100vh; */
 }
 .home__header {
   background: url(./img/showcase.jpg);
