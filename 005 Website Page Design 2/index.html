@@ -8,75 +8,145 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <p id="home"></p>
+    <header class="header" >
+      <div class="header__left">
+        <h2><span> Clarusway </span>Web Design</h2>
+      </div>
+      <div class="header__right">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+        </ul>
+      </div>
+    </header>
     <main>
-      <header class="header">
-        <div class="header__left">
-          <h2><span> Clarusway </span>Web Design</h2>
-        </div>
-        <div class="header__right">
-          <ul>
-            <li><a href="" class="active">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="#">Services</a></li>
-          </ul>
+      <header class="home__header" >
+        <div class="home__header-text">
+          <h1>Professional Web Design</h1>
+          <p>
+            Lorem ip amet. Cumque neupiditate provident perferendis repudiandae
+            praesentium magnam dolorum quaerat inventore sed et hic voluptatem
+            ea?
+          </p>
         </div>
       </header>
-      <section class="home">
-        <header class="home__header">
-          <div class="home__header-text">
-            <h1>Professional Web Design</h1>
+      <nav class="home__nav">
+        <div class="home__nav-left">
+          <h3>Subscribe To Our Newsletter</h3>
+        </div>
+        <div class="home__nav-right">
+          <form action="#">
+            <input type="email" placeholder="Enter Email.." />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </nav>
+     <section class="home">
+      <article class="home__article">
+        <div class="home__article-box">
+          <img src="./img/logo_html.png" width="90px" alt="" />
+          <h4>HTML5 Markup</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            officiis!
+          </p>
+        </div>
+        <div class="home__article-box">
+          <img src="./img/logo_css.png" width="90px" alt="" />
+          <h4>CSS3 Styling</h4>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            officiis!
+          </p>
+        </div>
+        <div class="home__article-box">
+          <img src="./img/logo_brush.png" width="90px" alt="" />
+          <h4>Graphic Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            officiis!
+          </p>
+        </div>
+      </article>
+    </section>
+      <section class="about" id="about">
+        <article class="about__left">
+          <h1 class="about__left-header">About Us</h1>
+          <div class="about__left-content">
             <p>
-              Lorem ip amet. Cumque neupiditate provident perferendis
-              repudiandae praesentium magnam dolorum quaerat inventore sed et
-              hic voluptatem ea?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              dolorum in expedita repudiandae, quo obcaecati temporibus incidunt
+              magni laudis labore quia quidem, earum itaque
+              minus excepturi quae vlpa iusto. Dolor ut expedita
+              similique, veniam accusamus enim magni dolorem iusto sunt. Vel,
+              minima non!
             </p>
           </div>
-        </header>
-        <nav class="home__nav">
-          <div class="home__nav-left">
-            <h3>Subscribe To Our Newsletter</h3>
-          </div>
-          <div class="home__nav-right">
-            <form action="#">
-              <input type="email" placeholder="Enter Email.." />
-              <button type="submit">Subscribe</button>
-            </form>
-          </div>
-        </nav>
-        <article class="home__article">
-          <div class="home__article-box">
-            <img src="./img/logo_html.png" width="100px" alt="" />
-            <h4>HTML5 Markup</h4>
+          <div class="about__left-content bgdark-content">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Molestias, officiis!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              dolorum in expedita repudiandae, quo obcaecati temporibus incidunt
+              magni laudis labore quia quidem, earum itaque
+              minus exce vlpa iusto. Dolor ut expedita
+              similique, veniam accusamus enim magni dolorem iusto sunt. Vel,
+              minima non!
             </p>
           </div>
-          <div class="home__article-box">
-            <img src="./img/logo_css.png" width="100px" alt="" />
-            <h4>CSS3 Styling</h4>
+        </article>
+        <article class="about__right">
+          <div class="about__right-content bgdark-content">
+          <h1 class="about__right-header">What We Do</h1>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Molestias, officiis!
-            </p>
-          </div>
-          <div class="home__article-box">
-            <img src="./img/logo_brush.png" width="100px" alt="" />
-            <h4>Graphic Design</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Molestias, officiis!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              dolorum in expedita riatur
+              voluptatem facere facilis vitae culpa iusto. Dolor ut expedita
+              similique, veniam accusamus enim magni dolorem iusto sunt. Vel,
+              minima non!
             </p>
           </div>
         </article>
       </section>
-      <section class="about"></section>
-      <section class="services"></section>
-      <footer class="footer">
-        <p>Clarusway Web Design, Copyright @ 2020</p>
-        <img src="./img/clarusway_logo.png" width="200px" alt="" />
-      </footer>
+      <section class="services" id="services">
+        <article class="services__left">
+          <h1>Services</h1>
+          <div class="services__left-box">
+            <h2>Website Design</h2>
+            <p>Lorem ipsum dolor sit, arem ipsum dolor sit, amet consectetur adipisicing elit. Facere, optio!</p>
+            <p>Pricing: $1,000 - $3,000</p>
+          </div>
+          <div class="services__left-box">
+            <h2>Website Maintenance</h2>
+            <p>Lorem ipsum dolor sitrem ipsum dolor sit, a, amet consectetur adipisicing elit. Facere, optio!</p>
+            <p>Pricing: $1,000 - $3,000</p>
+         
+          </div>
+          <div class="services__left-box">
+            <h2>Website Hosting</h2>
+            <p>Lorem ipsum dolor sitrem ipsum dolor sit, a, amet consectetur adipisicing elit. Facere, optio!</p>
+            <p>Pricing: $1,000 - $3,000</p>
+          </div>
+        </article>
+        <article class="services__right">
+          <h2>Get a Auote</h2>
+          <form action="">
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="name" placeholder="Name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Email"><br>
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </article>
+      </section>
     </main>
+    <footer class="footer">
+      <p>Clarusway Web Design, Copyright @ 2020</p>
+      <img src="./img/clarusway_logo.png" width="200px" alt="" />
+    </footer>
   </body>
 </html>
