@@ -65,7 +65,8 @@ h1 {
 
 .home {
   height: 350px;
-  /* height: 100vh; */
+  height: calc(100vh - 500px);
+
 }
 .home__header {
   background: url(./img/showcase.jpg);
@@ -143,22 +144,20 @@ main {
   align-items: center;
 }
 
-/* ABOUT CSS */
+
 .about {
-  width: 100%;
-  /* height: calc(100vh - 285px); */
-  /* margin-bottom: 20px;
-  margin-top: 125px; */
-height: 525px;
+  max-width: 1200px;
+  margin: auto;
+  height: 100vh;
+  padding-top: 200px;
   display: flex;
   font-size: 1rem;
   letter-spacing: 2px;
   justify-content: space-between;
-  padding: 0 1rem;
-  /* border: 1px solid blue; */
-  padding: 2rem;
   gap: 0 5rem;
 }
+
+
 
 .about__left {
   display: flex;
@@ -185,7 +184,7 @@ height: 525px;
   /* height: calc(100vh - 285px); */
   /* height: calc(100vh ); */
   height: 600px;
-  
+
   margin-bottom: 70px;
   width: 100%;
   display: flex;
@@ -196,53 +195,50 @@ height: 525px;
   /* border: 1px solid rgb(255, 85, 7); */
   padding: 2rem;
   gap: 0 5rem;
-
 }
 
-.services__left{
+.services__left {
   /* border: 1px solid green; */
   flex: 2 40%;
 }
-.services__left h1{
+.services__left h1 {
   padding: 0.7rem 0;
   font-weight: bolder;
 }
-.services__left-box{
+.services__left-box {
   padding: 1rem;
   background-color: #aeb6b5;
   margin-top: 10px;
   line-height: 2;
 }
 
-.services__right{
+.services__right {
   border: 1px solid green;
-  background-image:  var(--primary-bg-clr);
+  background-image: var(--primary-bg-clr);
   flex: 1 20%;
   padding: 1rem;
   height: 300px;
   color: #fff;
-
 }
-.services__right h2{
+.services__right h2 {
   padding: 0.7rem 0;
 }
-.services__right form input{
+.services__right form input {
   width: 100%;
   height: 30px;
-  padding: 2px; 
+  padding: 2px;
 }
-.services__right form button{
+.services__right form button {
   padding: 0.5rem 1rem;
   background-color: var(--secondary-clr);
   border: none;
 }
-textarea{
+textarea {
   width: 100%;
   height: 50px;
   resize: none;
   padding: 10px 0;
 }
-
 
 /* FOOTER CSS */
 .footer {
