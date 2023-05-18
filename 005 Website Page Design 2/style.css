@@ -19,7 +19,6 @@ h1 {
 .header {
   display: flex;
   width: 100%;
-
   justify-content: space-between;
   align-content: center;
   padding: 1.6rem;
@@ -28,6 +27,8 @@ h1 {
   border-bottom: 3px solid var(--primary-clr);
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 1;
 }
 .header__left,
@@ -65,7 +66,7 @@ h1 {
 }
 .home__header {
   background: url(./img/showcase.jpg);
-  height: 290px;
+  height: 340px;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -76,7 +77,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.2);
   content: "";
   display: block;
-  height: 290px;
+  height: 340px;
   position: absolute;
   width: 100%;
 }
@@ -99,7 +100,8 @@ h1 {
   color: white;
   font-size: 1.2rem;
   position: sticky;
-  top: 0;
+  top: 86px;
+  z-index: 1;
 }
 
 .home__nav-right input {
@@ -117,7 +119,7 @@ h1 {
   padding: 0.6rem 0.9rem;
 }
 .home__article{
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
     display: flex;
     text-align: center;
     justify-content: space-around;
@@ -125,7 +127,6 @@ h1 {
     flex-wrap: wrap;
 }
 .home__article-box{
-    border: 1px solid black;
     gap: 0.8rem;
     flex-basis: 30%;
     display: flex;
