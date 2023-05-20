@@ -16,9 +16,11 @@ In this Repository You will find the Website Designs I was working on such as:
 
 - [Google landing Page](https://alidurul.github.io/Website-Page-Designs/003%20Google_landing_Page/)
 
-- [Website Web Design 004](https://alidurul.github.io/Website-Page-Designs/004%20Website%20Page%20Design/)
+- [Website Web Design](https://alidurul.github.io/Website-Page-Designs/005%20Website%20Page%20Design%202/#home)
 
-- [Website Web Design 007](https://alidurul.github.io/Website-Page-Designs/006%20Website%20Page%20Design%203/)
+- [Website Web Design 2](https://alidurul.github.io/Website-Page-Designs/004%20Website%20Page%20Design/)
+
+- [Website Web Design 3](https://alidurul.github.io/Website-Page-Designs/006%20Website%20Page%20Design%203/)
 
 
 
