@@ -1,8 +1,26 @@
 :root {
   --primary-clr: darkmagenta;
   --secondary-clr: rgb(242, 87, 3);
-  --primary-bg-clr: linear-gradient(283deg, #000000 0%, #34534e 100%);
+  --primary-bg-clr: linear-gradient(283deg, #312a30 0%, #34534e 100%);
 }
+html{
+  scroll-snap-type:y mandatory;
+}
+
+section{
+  scroll-snap-align: start;
+}
+section.home{
+  scroll-margin-top: 0;
+
+}
+section.about,
+section.services{
+  scroll-margin-top: 104px;
+
+}
+
+
 /* GENERAL CSS */
 * {
   padding: 0;
@@ -30,8 +48,6 @@ h1 {
   border-bottom: 3px solid var(--primary-clr);
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
   z-index: 1;
 }
 .header__left,
