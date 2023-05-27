@@ -5,7 +5,7 @@
 
   --ff-helvetica: Helvetica, sans-serif;
   --fs-lg: 45px;
-  --fs-sm: 25px;
+  --fs-sm: 30px;
 }
 
 * {
@@ -82,28 +82,25 @@ main {
 
 @media screen and (max-width: 450px) {
   .main {
-    height: 550px;
+    height: 750px;
     width: auto;
-  gap: 30px;
-
+    gap: 30px;
   }
 
   .screen {
-    height: 200px;
+    height: 250px;
   }
   .button {
-    height: 50px;
-    width: 50px;
+    height:80px;
+    width: 80px;
     border-radius: 50px;
     font-size: var(--fs-sm);
-}
-.buttons {
-      gap: 1rem;
-
   }
-  .zero{
-  width: auto !important;
-  padding-right: 60px;
-
+  .buttons {
+    gap: .6rem;
+  }
+  .zero {
+    width: auto !important;
+    padding-right: 90px;
   }
 }
