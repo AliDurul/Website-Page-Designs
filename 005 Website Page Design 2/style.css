@@ -48,6 +48,11 @@ h1 {
   border-bottom: 3px solid var(--primary-clr);
   position: fixed;
   top: 0;
+
+  left: 0;
+  right: 0;
+  z-index: 2;
+
   z-index: 1;
 }
 .header__left,
@@ -126,7 +131,7 @@ main {
   position: sticky;
   width: 100%;
   top: 82px;
-  z-index: 1;
+  
 }
 
 .home__nav-right input {
@@ -171,6 +176,7 @@ main {
   letter-spacing: 2px;
   justify-content: space-between;
   gap: 0 5rem;
+  /* align-items: center; */
 }
 
 
@@ -183,6 +189,7 @@ main {
 }
 .about__right {
   flex: 2 20%;
+  margin-top: 2.3rem;
 }
 
 .bgdark-content {
@@ -235,6 +242,7 @@ main {
   padding: 1rem;
   height: 300px;
   color: #fff;
+
 }
 .services__right h2 {
   padding: 0.7rem 0;
