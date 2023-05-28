@@ -3,8 +3,11 @@
   --secondary-clr: rgb(242, 87, 3);
   --primary-bg-clr: linear-gradient(283deg, #312a30 0%, #34534e 100%);
 }
+
 html{
-  scroll-snap-type:y mandatory;
+  /* scroll-snap-type:y mandatory; */
+  scroll-behavior: smooth;
+
 }
 
 section{
@@ -27,9 +30,7 @@ section.services{
   margin: 0;
   box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
-}
+
 
 a,
 li,
@@ -48,11 +49,6 @@ h1 {
   border-bottom: 3px solid var(--primary-clr);
   position: fixed;
   top: 0;
-
-  left: 0;
-  right: 0;
-  z-index: 2;
-
   z-index: 1;
 }
 .header__left,
@@ -84,9 +80,9 @@ h1 {
   color: var(--primary-clr);
 }
 
+/* HOME CSS */
 .home {
-  height: 350px;
-  height: calc(100vh - 500px);
+  height: calc(100vh - 300px);
 
 }
 .home__header {
@@ -131,7 +127,7 @@ main {
   position: sticky;
   width: 100%;
   top: 82px;
-  
+
 }
 
 .home__nav-right input {
@@ -204,10 +200,7 @@ main {
 
 /* SERVICES CSS */
 .services {
-  /* height: calc(100vh - 285px); */
-  /* height: calc(100vh ); */
-  height: 600px;
-
+  height: 700px;
   margin-bottom: 70px;
   width: 100%;
   display: flex;
