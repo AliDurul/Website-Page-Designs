@@ -9,7 +9,7 @@
   </head>
   <body>
     <main>
-      <header class="header">
+      <header class="header" >
         <div class="header__left">
           <h2><span> Clarusway </span>Web Design</h2>
         </div>
@@ -21,29 +21,29 @@
           </ul>
         </div>
       </header>
+      <div class="hero" id="home">
+        <div class="hero-text">
+          <h1>Professional Web Design</h1>
+          <p>
+            Lorem ip amet. Cumque neupiditate provident perferendis repudiandae
+            praesentium magnam dolorum quaerat inventore sed et hic voluptatem
+            ea?
+          </p>
+        </div>
+      </div>
+      <nav class="home__nav">
+        <div class="home__nav-left">
+          <h3>Subscribe To Our Newsletter</h3>
+        </div>
+        <div class="home__nav-right">
+          <form action="#">
+            <input type="email" placeholder="Enter Email.." />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </nav>
+
       <section class="home">
-        <header class="home__header" id="home">
-          <div class="home__header-text">
-            <h1>Professional Web Design</h1>
-            <p>
-              Lorem ip amet. Cumque neupiditate provident perferendis repudiandae
-              praesentium magnam dolorum quaerat inventore sed et hic voluptatem
-              ea?
-            </p>
-          </div>
-        </header>
-  
-        <nav class="home__nav">
-          <div class="home__nav-left">
-            <h3>Subscribe To Our Newsletter</h3>
-          </div>
-          <div class="home__nav-right">
-            <form action="#">
-              <input type="email" placeholder="Enter Email.." />
-              <button type="submit">Subscribe</button>
-            </form>
-          </div>
-        </nav>
         <article class="home__article">
           <div class="home__article-box">
             <img src="./img/logo_html.png" width="90px" alt="" />
@@ -72,9 +72,10 @@
           </div>
         </article>
       </section>
+
       <section class="about" id="about">
         <article class="about__left">
-          <h1 class="about__left-header">About Us</h1>
+          <h1 class="about__left-header left-h1">About Us</h1>
           <div class="about__left-content">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
@@ -107,9 +108,10 @@
           </div>
         </article>
       </section>
+
       <section class="services" id="services">
         <article class="services__left">
-          <h1>Services</h1>
+          <h1 class="left-h1">Services</h1>
           <div class="services__left-box">
             <h2>Website Design</h2>
             <p>
@@ -138,25 +140,32 @@
         <article class="services__right">
           <h2>Get a Auote</h2>
           <form action="">
+          <div>
             <label for="name">Name</label><br />
-            <input type="text" name="name" id="name" placeholder="Name" /><br />
-            <label for="email">Email</label><br />
+            <input type="text" name="name" id="name" placeholder="Name" />
+          </div>
+            <div>
+              <label for="email">Email</label><br />
             <input
               type="email"
               name="email"
               id="email"
               placeholder="Email"
-            /><br />
-            <label for="message">Message</label><br />
+            />
+            </div>
+            <div>
+              <label for="message">Message</label><br />
             <textarea
               name="message"
               id="message"
               placeholder="Message"
             ></textarea>
+            </div>
             <button type="submit">Send</button>
           </form>
         </article>
       </section>
+
     </main>
 
     <footer class="footer">

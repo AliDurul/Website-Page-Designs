@@ -7,7 +7,6 @@
 html{
   /* scroll-snap-type:y mandatory; */
   scroll-behavior: smooth;
-
 }
 
 section{
@@ -20,9 +19,11 @@ section.home{
 section.about,
 section.services{
   scroll-margin-top: 104px;
-
 }
-
+/* COMMON CSS */
+.left-h1{
+  font-size: 2rem;
+}
 
 /* GENERAL CSS */
 * {
@@ -30,7 +31,9 @@ section.services{
   margin: 0;
   box-sizing: border-box;
 }
-
+main {
+  position: relative;
+}
 
 a,
 li,
@@ -38,6 +41,7 @@ h1 {
   text-decoration: none;
   list-style: none;
 }
+
 /* HOME CSS */
 .header {
   display: flex;
@@ -80,12 +84,8 @@ h1 {
   color: var(--primary-clr);
 }
 
-/* HOME CSS */
-.home {
-  height: calc(100vh - 300px);
-
-}
-.home__header {
+/* HERO CSS */
+.hero {
   background: url(./img/showcase.jpg);
   margin-top: 82px;
   height: 300px;
@@ -95,7 +95,7 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-.home__header::before {
+.hero::before {
   background-color: rgba(0, 0, 0, 0.2);
   content: "";
   display: block;
@@ -103,20 +103,19 @@ h1 {
   width: 100%;
   position: absolute;
 }
-.home__header-text {
+.hero-text {
   position: relative;
   color: #fff;
   text-align: center;
   font-size: 1.2rem;
 }
-.home__header-text h1 {
+.hero-text h1 {
   padding-bottom: 1.5rem;
   font-size: 3rem;
 }
 
-main {
-  position: relative;
-}
+/* NAVBAR CSS */
+
 .home__nav {
   background-image: var(--primary-bg-clr);
   padding: 1.5rem;
@@ -127,7 +126,7 @@ main {
   position: sticky;
   width: 100%;
   top: 82px;
-
+  z-index: 1;
 }
 
 .home__nav-right input {
@@ -144,8 +143,17 @@ main {
   border: none;
   padding: 0.6rem 0.9rem;
 }
+
+/* HOME CSS */
+.home {
+  height: 210px;
+  max-width: 1280px;
+  margin: auto;
+ 
+
+}
 .home__article {
-  padding: 1.5rem 2rem;
+  padding: 1.7rem 2rem;
   display: flex;
   text-align: center;
   justify-content: space-around;
@@ -161,21 +169,19 @@ main {
   align-items: center;
 }
 
-
+/* ABOUT CSS */
 .about {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: auto;
-  height: 100vh;
-  padding-top: 200px;
+  height: 570px;
+  padding-top: 80px;
   display: flex;
   font-size: 1rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 1.2;
   justify-content: space-between;
   gap: 0 5rem;
-  /* align-items: center; */
 }
-
-
 
 .about__left {
   display: flex;
@@ -200,42 +206,40 @@ main {
 
 /* SERVICES CSS */
 .services {
-  height: 700px;
-  margin-bottom: 70px;
-  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+  padding-top: 70px;
+  margin-bottom: 110px;
   display: flex;
   font-size: 1rem;
-  letter-spacing: 1px;
+  letter-spacing: .2px;
   justify-content: space-between;
-  padding: 0 1rem;
-  /* border: 1px solid rgb(255, 85, 7); */
-  padding: 2rem;
   gap: 0 5rem;
 }
-
 .services__left {
-  /* border: 1px solid green; */
   flex: 2 40%;
 }
 .services__left h1 {
-  padding: 0.7rem 0;
   font-weight: bolder;
 }
 .services__left-box {
   padding: 1rem;
   background-color: #aeb6b5;
   margin-top: 10px;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .services__right {
-  border: 1px solid green;
   background-image: var(--primary-bg-clr);
   flex: 1 20%;
   padding: 1rem;
   height: 300px;
   color: #fff;
-
+}
+.services__right form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 .services__right h2 {
   padding: 0.7rem 0;
@@ -249,6 +253,7 @@ main {
   padding: 0.5rem 1rem;
   background-color: var(--secondary-clr);
   border: none;
+  align-self: flex-start;
 }
 textarea {
   width: 100%;
@@ -265,9 +270,9 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1.7rem;
+  padding: .4rem 0;
   color: #fff;
-  gap: 0.3rem;
+  gap: 0.4rem;
   position: fixed;
   bottom: 0;
 }
