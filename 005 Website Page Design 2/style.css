@@ -5,7 +5,7 @@
 }
 
 html{
-  /* scroll-snap-type:y mandatory; */
+  scroll-snap-type:y mandatory;
   scroll-behavior: smooth;
 }
 
@@ -13,7 +13,7 @@ section{
   scroll-snap-align: start;
 }
 section.home{
-  scroll-margin-top: 0;
+  scroll-margin-top: 470px;
 
 }
 section.about,
