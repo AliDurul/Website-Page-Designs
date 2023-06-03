@@ -8,9 +8,48 @@
   font-size: 1.2rem;
   font-weight: 600;
 }
-.navbar .navbar-nav .nav-link{
- transition: color 0.7s;
-}
-.navbar .navbar-nav .nav-link:hover {
+.navbar .navbar-nav .nav-link {
+  transition: color 0.7s;
+  &:hover {
     color: var(--red);
+  }
+}
+
+/* CAROUSEL */
+
+.carousel-item {
+  max-height: calc(100vh - 88px);
+}
+
+.carousel-caption {
+  bottom: 5rem;
+
+  & h5 {
+    color: var(--red);
+    font-size: 2.4rem;
+    text-shadow: 3px 3px 3px #000;
+  }
+  & p {
+    text-shadow: 3px 3px 3px #000;
+    font-weight: 600;
+  }
+  & .btn {
+    width: 7rem;
+  }
+}
+.carousel-indicators {
+  gap: 0.7rem;
+  & button {
+    background-color: var(--red) !important;
+    height: 0.4rem !important;
+    width: 3rem !important;
+  }
+}
+
+#instructors .card {
+  transition: transform .6s;
+ 
+  &:hover {
+    transform: scale(1.05);
+  }
 }
