@@ -1,0 +1,15 @@
+.hero {
+  background: url(./img/banner.jpeg) center;
+  /* object-fit: cover; */
+  height: calc(100vh - 56px);
+}
+
+/* .circle {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #dc3545;
+} */
