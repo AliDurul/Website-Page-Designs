@@ -47,9 +47,17 @@
 }
 
 #instructors .card {
-  transition: transform .6s;
- 
+  transition: transform 0.6s;
+  cursor: pointer;
   &:hover {
     transform: scale(1.05);
   }
+
+  & i {
+    transition: opacity 0.6s;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  
 }
