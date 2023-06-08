@@ -59,5 +59,42 @@
       opacity: 0.5;
     }
   }
-  
+
 }
+#courses .nav-link{
+  color: white;
+}
+
+#courses .nav-link.active{
+  background-color: #dc3545;
+}
+
+footer i {
+  margin-left: .8rem;
+  transition: color .6s;
+  &:hover{
+    color: var(--red);
+    cursor: pointer;
+  }
+}
+
+.btn-up{
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  color: white;
+  background-color: var(--red);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  text-decoration: none;
+  &:hover{
+    transform: scale(1.2);
+    font-size: 1.4rem;
+  }
+}
+

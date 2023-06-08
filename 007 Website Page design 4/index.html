@@ -21,7 +21,7 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body>
+  <body id="body">
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-md">
       <div class="container-fluid">
@@ -48,13 +48,13 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Student</a>
+              <a class="nav-link" href="#students">Student</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Courses</a>
+              <a class="nav-link" href="#courses">Courses</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -331,15 +331,301 @@
           </div>
         </div>
       </section>
-
-
+      <!-- COURCES -->
       <section id="courses" class="container bg-dark p-3">
         <h2 class="display-6 text-danger">COURSES</h2>
-        
 
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="pills-home-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#fs-image"
+              type="button"
+              role="tab"
+              aria-controls="fs-image"
+              aria-selected="true"
+            >
+              Full-Stack
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-profile-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#data-image"
+              type="button"
+              role="tab"
+              aria-controls="data-image"
+              aria-selected="false"
+            >
+              Data-Science
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-contact-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#dev-image"
+              type="button"
+              role="tab"
+              aria-controls="dev-image"
+              aria-selected="false"
+            >
+              DevOps
+            </button>
+          </li>
+        </ul>
 
+        <div class="tab-content text-white" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="fs-image"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+            tabindex="0"
+          >
+            <div class="row g-2">
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./assets/img/thumbnail/fs1.jpg">
+                  <img
+                    src="./assets/img/thumbnail/fs1.jpg"
+                    class="img-thumbnail"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./assets/img/thumbnail/fs2.jpg">
+                  <img
+                    src="./assets/img/thumbnail/fs2.jpg"
+                    class="img-thumbnail"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./assets/img/thumbnail/fs4.jpg">
+                  <img
+                    src="./assets/img/thumbnail/fs4.jpg"
+                    class="img-thumbnail"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./assets/img/thumbnail/fs3.jpg">
+                  <img
+                    src="./assets/img/thumbnail/fs3.jpg"
+                    class="img-thumbnail"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="data-image"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+            tabindex="0"
+          >
+            <div class="row g-2">
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./assets/img/thumbnail/ds1.jpg">
+                  <img
+                    src="./assets/img/thumbnail/ds1.jpg"
+                    class="img-thumbnail"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./assets/img/thumbnail/ds2.jpg">
+                  <img
+                    src="./assets/img/thumbnail/ds2.jpg"
+                    class="img-thumbnail"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./assets/img/thumbnail/ds4.jpg">
+                  <img
+                    src="./assets/img/thumbnail/ds4.jpg"
+                    class="img-thumbnail"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./assets/img/thumbnail/ds3.jpg">
+                  <img
+                    src="./assets/img/thumbnail/ds3.jpg"
+                    class="img-thumbnail"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="dev-image"
+            role="tabpanel"
+            aria-labelledby="dev-image-tab"
+            tabindex="0"
+          >
+            <div class="row g-2">
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./assets/img/thumbnail/ops1.jpg">
+                  <img
+                    src="./assets/img/thumbnail/ops1.jpg"
+                    class="img-thumbnail"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./assets/img/thumbnail/ops2.jpg">
+                  <img
+                    src="./assets/img/thumbnail/ops2.jpg"
+                    class="img-thumbnail"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./assets/img/thumbnail/ops4.jpg">
+                  <img
+                    src="./assets/img/thumbnail/ops4.jpg"
+                    class="img-thumbnail"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <a data-fslightbox href="./assets/img/thumbnail/ops3.jpg">
+                  <img
+                    src="./assets/img/thumbnail/ops3.jpg"
+                    class="img-thumbnail"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="container bg-light p-3">
+        <h2 class="display-6 text-danger">CONTACT</h2>
+        <article>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
+            incidunt accusamus assumenda at amet eius reprehenderit magnam iure
+            beatae saepe.
+          </p>
+          <div class="row gy-sm-4">
+            <div class="col-md-4">
+              <i class="fas fa-phone fa-2x text-danger"></i>
+              <h5>Telephone</h5>
+              <a href="tel:+2600708055">+2600708055</a>
+            </div>
+            <div class="col-md-4">
+              <i class="fab fa-whatsapp fa-2x text-danger"></i>
+              <h5>Whatsapp</h5>
+              <a href="https://wa.me/+2600708055">+2600708055</a>
+            </div>
+            <div class="col-md-4">
+              <i class="fas fa-envelope fa-2x text-danger"></i>
+              <h5>Mail</h5>
+              <a href="mailto:alidrl26@gmail.com">alidrl26@gmail.com</a>
+            </div>
+          </div>
+          <div class="row">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter Your Name"
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter Your Email"
+                />
+              </div>
+              <div class="col-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  placeholder="Enter Subject"
+                />
+              </div>
+              <div class="col-12 form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Enter Your Comment"
+                  id="floatingTextarea"
+                ></textarea>
+                <label for="floatingTextarea">Enter Your Comment</label>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-danger px-5">Submit</button>
+              </div>
+            </form>
+          </div>
+        </article>
+        <article id="location" class="mt-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3846.5049848969466!2d28.276142311079198!3d-15.403272485122011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1940f35934b0cda7%3A0x79e367746b8e6713!2sCavendish%20University%20Zambia!5e0!3m2!1sen!2szm!4v1686234822490!5m2!1sen!2szm"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </article>
       </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-dark text-center text-white p-4">
+      <div class="fa-2x">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+      <div class="p-3 h6">
+        &copy
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Copyright by FunCode
+      </div>
+    </footer>
+
+
+    <!-- UP ICON -->
+    <a href="#body" class="btn-up" >
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+
 
     <script src="./assets/lib/fslightbox.js"></script>
     <script
