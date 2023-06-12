@@ -4,14 +4,19 @@
   box-sizing: border-box;
 }
 
-.container {
-  max-width:1240px;;
+.main{
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+  max-width: 1240px;
   /* background-color: aqua; */
   margin: auto;
 }
 
 .navbar {
-    margin-top: 20px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
 
@@ -32,7 +37,7 @@
   }
 }
 
-.navbar .btn {
+.btn {
   color: #ffffff;
   padding: 15px 30px;
   background: #1b1b1d;
@@ -40,4 +45,10 @@
   border-radius: 63px;
   line-height: 26px;
   text-transform: uppercase;
+}
+
+.content .content_right {
+  background-image: url(./img/alowishus-coffee\ 5.png);
+  width: 700px;
+  height: 712px;
 }
