@@ -1,12 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.main{
-    height: 100vh;
-    width: 100vw;
+.main {
+  /* height: 100vh; */
+  /* width: 100vw; */
+  font-family: "Jost", sans-serif;
 }
 
 .header {
@@ -47,8 +49,90 @@
   text-transform: uppercase;
 }
 
-.content .content_right {
+article.content {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* max-width: 1276px; */
+  /* height: 712px; */
+  & .content_left-up {
+    width: 597px;
+    height: 520px;
+    padding-top: 31px;
+
+    & h1 {
+      font-weight: 800;
+      font-size: 124px;
+      line-height: 140px;
+      color: #1b1b1d;
+    }
+    & p {
+      padding-top: 30px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 35px;
+      color: #64646a;
+    }
+  }
+  & .content_left-bottom {
+    padding-top: 60px;
+    & a {
+      padding-left: 30px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      text-transform: uppercase;
+      color: #1b1b1d;
+    }
+  }
+}
+
+article .content_right {
   background-image: url(./img/alowishus-coffee\ 5.png);
   width: 700px;
-  height: 712px;
+  height: 679px;
+  position: relative;
+  & .content_right-img {
+    position: absolute;
+  }
+  & .img-top {
+    top: 31px;
+    right: 34px;
+  }
+  & .img-middle {
+    top: 92px;
+    right: 43px;
+  }
+  & .img-bottom {
+    bottom: 181px;
+    left: 44px;
+  }
+
+  & .img-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+    width: 280px;
+    height: 140px;
+    background: #ffffff;
+    border-radius: 24px;
+    & div {
+      padding-bottom: 1rem;
+    }
+  }
 }
+
+@media screen and (max-width: 1306px) {
+  article.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+
