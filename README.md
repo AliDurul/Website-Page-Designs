@@ -22,6 +22,14 @@ In this Repository You will find the Website Designs I was working on such as:
 
 - [Website Web Design 3](https://alidurul.github.io/Website-Page-Designs/006%20Website%20Page%20Design%203/)
 
+- [Website Web Design 4](https://alidurul.github.io/Website-Page-Designs/007%20Website%20Page%20design%204/)
+
+- [Bootsrap Web Design](https://alidurul.github.io/Website-Page-Designs/Bootsrap%20Web%20Design/)
+
+- [Cofee Shop](https://alidurul.github.io/Website-Page-Designs/Cofee%20Shop/)
+
+- [ios calculator](https://alidurul.github.io/Website-Page-Designs/ios%20calculator/)
+
 
 
 ## Check Out My Projects at Frontend Mentor
